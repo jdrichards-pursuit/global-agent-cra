@@ -1,0 +1,126 @@
+.CaseDetailsPage {
+  padding: 20px;
+  padding-bottom: 90px;
+  background-color: #c0d9d9;
+}
+
+.content {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #253759;
+}
+.content section {
+  max-width: 95%;
+  max-height: 350px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px;
+  margin-left: 15px;
+}
+
+.content h1 {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Courier Prime";
+  font-weight: 700;
+  font-family: "Times New Roman";
+  letter-spacing: 1.5px;
+  margin-bottom: -20px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: -30px;
+  text-align: center;
+  font-family: "Times New Roman";
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.case-image {
+  width: 150%;
+  max-width: 250px;
+  height: auto;
+  margin: 40px 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.toggle-button,
+.questions-button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button {
+  background-color: #b0babf;
+  box-shadow: 0 3px 0 #032564;
+  font-size: 14px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.questions-button {
+  background-color: #ffc121;
+  box-shadow: 0 3px 0 #020d23;
+  font-size: 14px;
+  width: 250px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.questions-link {
+  text-decoration: none;
+}
+
+@media (min-width: 917px) {
+  .content {
+    max-width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .content section {
+    max-height: 550px;
+    line-height: 2;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .content h1 {
+    font-size: x-large;
+
+  }
+
+  .image-container {
+    margin-bottom: 30px;
+  }
+
+  .case-image {
+    max-width: 350px;
+  }
+
+  .content button {
+    font-size: 16px;
+  }
+}
